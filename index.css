@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.App {
+  padding: 20px;
+}
+
+.p-d-flex {
+  display: flex;
+}
+
+.p-ai-center {
+  align-items: center;
+}
+
+.p-jc-between {
+  justify-content: space-between;
+}
+
+.p-mb-4 {
+  margin-bottom: 16px;
+}
+
+.p-mr-2 {
+  margin-right: 8px;
+}
