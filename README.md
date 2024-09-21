@@ -1,50 +1,42 @@
-# React + TypeScript + Vite
+# artTable App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The artTable app is a React application designed to showcase artworks. It utilizes the public API to provide a dynamic and interactive user experience with features like pagination and row selection.
 
-Currently, two official plugins are available:
+## Table of Contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Introduction](#introduction)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [API](#api)
+- [Demo](#demo)
 
-## Expanding the ESLint configuration
+## Introduction
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+artTable allows users to browse a collection of artworks from the Art Institute of Chicago. The application offers a clean interface to explore artworks with capabilities for pagination and selection.
 
-- Configure the top-level `parserOptions` property like this:
+## Features
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+- Fetch artworks from the Art Institute API
+- Display artwork details in a PrimeReact DataTable
+- Server-side pagination to fetch data dynamically
+- Row selection using checkboxes
+- Persistent row selection across pages
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## Technologies Used
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+- React
+- Vite
+- TypeScript
+- PrimeReact
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+## API
+
+- This is the API I used to fetch artwork data: https://api.artic.edu/api/v1/artworks?page=1
+
+## Demo
+
+You can check out the live application [here](https://rajeev2004.github.io/ArtTable/).
+
+![NoteKeeper App Screenshot](![Screenshot (106)](https://github.com/user-attachments/assets/0551e669-425c-408c-b8f9-9e68d2c0cca9)
+)
+
