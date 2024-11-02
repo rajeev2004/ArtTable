@@ -37,6 +37,6 @@ artTable allows users to browse a collection of artworks from the Art Institute 
 
 You can check out the live application [here](https://rajeev2004.github.io/ArtTable/).
 
-![NoteKeeper App Screenshot](![Screenshot (106)](https://github.com/user-attachments/assets/0551e669-425c-408c-b8f9-9e68d2c0cca9)
-)
+(![Screenshot (106)](https://github.com/user-attachments/assets/0551e669-425c-408c-b8f9-9e68d2c0cca9)
+
 
